@@ -1,5 +1,8 @@
 import './style.css';
-import { buildPage as pageOne } from './homePage';
+import buildHomePage from './home';
+import buildMenuPage from './menu';
+import buildAboutPage from './about';
 
-// Build index page
-pageOne();
+buildHomePage();
+buildMenuPage();
+buildAboutPage();
