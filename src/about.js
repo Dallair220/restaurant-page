@@ -1,6 +1,4 @@
 export default function buildAboutPage() {
-  // remove content of other page
-  document.querySelector('.content')?.remove();
   // new page content div
   const content = document.createElement('div');
   content.className = 'content';
@@ -11,7 +9,7 @@ export default function buildAboutPage() {
 
   const copy = document.createElement('p');
   copy.textContent =
-    ' to Ristorante incredibile, where every dish is made with fresh, quality ingredients. Enjoy our modern twist on traditional Italian cuisine, from pasta to pizza to seafood. Come join us for a memorable dining experience. Buon appetito!';
+    'Welcome to Ristorante Incredibile! We are a family-owned Italian restaurant with a passion for bringing the flavors of Italy to your table. Our commitment to using only the freshest, highest-quality ingredients ensures that every dish is a masterpiece. Come and enjoy our modern twist on traditional Italian cuisine today!';
   content.appendChild(copy);
 
   // add page content to html

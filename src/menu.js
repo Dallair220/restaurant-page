@@ -1,6 +1,4 @@
 export default function buildMenuPage() {
-  // remove content of other page
-  document.querySelector('.content')?.remove();
   // new page content div
   const content = document.createElement('div');
   content.className = 'content';
@@ -11,7 +9,7 @@ export default function buildMenuPage() {
 
   const copy = document.createElement('p');
   copy.textContent =
-    ', where every dish is made with fresh, quality ingredients. Enjoy our modern twist on traditional Italian cuisine, from pasta to pizza to seafood. Come join us for a memorable dining experience. Buon appetito!';
+    "Check out our delicious menu! From traditional Italian dishes like pasta and pizza, to fresh seafood and savory meats, we've got something for everyone. Come in and try our dishes made with the freshest, highest quality ingredients.";
   content.appendChild(copy);
 
   // add page content to html
