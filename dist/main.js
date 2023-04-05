@@ -615,7 +615,7 @@ function buildSetup() {
   \***********************/
 /***/ ((module, __unused_webpack_exports, __webpack_require__) => {
 
-module.exports = __webpack_require__.p + "0ad9a582b3235b0a3935.jpg";
+module.exports = __webpack_require__.p + "400b38edadd48c09e9b9.jpg";
 
 /***/ })
 
