@@ -1,9 +1,6 @@
 import Icon from './pizza.jpg';
 
 export default function buildSetup() {
-  document.querySelector('.container')?.remove();
-  document.body.removeChild(document.body.firstChild);
-  const htmlBody = document.body;
   const container = document.createElement('div');
   container.className = 'container';
 
@@ -26,7 +23,7 @@ export default function buildSetup() {
   buttonAbout.textContent = 'About';
   container.appendChild(buttonAbout);
 
-  htmlBody.appendChild(container);
+  document.body.appendChild(container);
 
   return {
     btnHome: buttonHome,
